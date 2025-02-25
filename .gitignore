@@ -1,0 +1,11 @@
+# Ignore log files
+*.log
+nohup.out
+
+# Ignore the virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
