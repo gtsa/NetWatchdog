@@ -1,5 +1,6 @@
 #!/bin/bash
-LOG_FILE=~/internet_status.log
+LOG_FILE="./internet_status.log"
+
 echo "Timestamp, Status, Ping (ms)" >> $LOG_FILE
 
 while true; do
